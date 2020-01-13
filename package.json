@@ -8,7 +8,8 @@
     "url": "http://aws.amazon.com/"
   },
   "scripts": {
-    "build": "browserify lib/main.js -o dist/main.js -d"
+    "build": "browserify lib/main.js -o dist/main.js -d",
+    "bluegaroo": "browserify lib/bluegaroo.js -o dist/bluegaroo.js -d"
   },
   "keywords": [],
   "browserify": {
